@@ -1,12 +1,14 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background: #000000;
 }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+    color: #82D97D;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -22,3 +24,30 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.jumbotron {
+  padding: 30px;
+  margin-bottom: 30px;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 2.1428571435;
+  color: inherit;
+  background-color: #333333;
+}
+
+.btn-primary {
+  color: #ffffff;
+  background-color: #82D97D;
+  border-color: #4fc427;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #ffffff;
+  background-color: #4fc427;
+  border-color: #4fc427;
+}
+
