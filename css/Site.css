@@ -5,8 +5,6 @@
     background-image: url("../img/background.jpg"); 
     background-position: center top;
     background-size: 100% auto;
-
-
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -14,6 +12,8 @@
     padding-left: 15px;
     padding-right: 15px;
     color: #82D97D;
+    background-color: #000000;
+    opacity: .8;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
